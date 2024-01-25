@@ -17,6 +17,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+
 img{
   width: 100%;
 }
@@ -54,10 +55,8 @@ h4{
   align-items: center;
 }
 
-
 /* /Utility */
 header{
-  background-color: red;
   height: 80px;
   width: 100vw;
   position: fixed;
@@ -68,9 +67,50 @@ header{
 
 /* menu */
 .menu{
-  background-color: yellow;
+  
   height: 100%;
 }
+
+.menu-sinistra,
+.menu-destra{
+  margin: 0 30px;
+  
+  width: 30%;
+  max-height: 40px;
+}
+
+
+header .btn-free{
+  padding: 8px 15px;
+  margin: 0;
+}
+
+
+/* liste nav  */
+
+
+.menu-destra nav ul,
+.menu-sinistra nav ul{
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.menu-destra nav ul li{
+  margin: 0 30px;
+}
+.menu-sinistra nav ul li{
+  margin: 0 25px;
+}
+
+
+.menu-destra nav ul li a,
+.menu-sinistra nav ul li a{
+  text-decoration: none;
+  
+  color: black;
+}
+
+
 
 /* /menu */
 
@@ -145,7 +185,7 @@ header{
   margin: 20px 0 50px 0;
 }
 
-nav ul{
+.card-text nav ul{
   list-style: none;
   margin: 0 20px;
   
@@ -168,25 +208,18 @@ ul.check li span{
   margin-left: 3px;
 }
 
-nav ul li{
+.card-text nav ul li{
   margin-bottom: 24px;
 }
 
-.in{
-  display: inline-block;
-}
 
-
-  li:nth-child(1){
-    /* font-family: FontAwesome; */
+.stile li:nth-child(1){
     list-style-type: '\f007';
-    /* content: '\f007'; */
   }
-
-li:nth-child(2){
+.stile li:nth-child(2){
   list-style-type: '\f07b';
 }
-li:nth-child(3){
+.stile li:nth-child(3){
   list-style-type: '\f1e0';
 }
 
@@ -198,6 +231,7 @@ li:nth-child(3){
   padding: 10px 0px;
   margin: 50px 0 35px 0
 }
+
 
 .destra .btn-free{
   margin: 30px;
