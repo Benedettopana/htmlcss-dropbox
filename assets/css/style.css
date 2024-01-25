@@ -424,10 +424,10 @@ span.bold{
 /* /parte sinistra */
 
 /* parte destra */
-/* .row .col .quadrato-2:nth-child(1){
+.row .col .quadrato-2:nth-child(1){
   background-color: #D5001F;
   color: white;
-} */
+}
 .row .col .quadrato-2:nth-child(2){
   background-color: #B4D0E7;
   color: white;
