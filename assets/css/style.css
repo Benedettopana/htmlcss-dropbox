@@ -23,7 +23,9 @@ img{
 }
 
 h1{
-  text-align: center;
+  margin-top: 90px;
+  font-size: 4.8rem;
+  font-weight: 800;
 }
 
 h2{
@@ -57,6 +59,7 @@ h4{
 
 /* /Utility */
 header{
+  background-color: white;
   height: 80px;
   width: 100vw;
   position: fixed;
@@ -106,12 +109,13 @@ header .btn-free{
 .menu-destra nav ul li a,
 .menu-sinistra nav ul li a{
   text-decoration: none;
-  
   color: black;
 }
 
-
-
+.menu-destra nav ul li a:hover,
+.menu-sinistra nav ul li a:hover{
+  margin-bottom: 1px solid  black;
+}
 /* /menu */
 
 /* hero */
@@ -120,6 +124,32 @@ header .btn-free{
     height: 750px;
     margin-top: 80px;
   }
+
+.hero-sinistra,
+.hero-destra{
+  margin-top: 50px;
+}
+
+.hero-sinistra{
+  max-width: 35%;
+  
+}
+
+.hero-sinistra p{
+  font-size: 1.1rem;
+}
+
+
+.hero-sinistra .btn-free{
+  padding: 10px 3px;
+  margin: 40px 230px 30px 0;
+}
+
+.hero-sinistra .freccia{
+  margin-top: 60px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 
 /* /hero */
 
