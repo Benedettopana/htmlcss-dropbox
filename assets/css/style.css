@@ -69,6 +69,10 @@ h4{
   flex-wrap: wrap;
 }
 
+.shrink{
+  flex-shrink: 1;
+}
+
 /* /Utility */
 header{
   background-color: white;
@@ -362,4 +366,99 @@ span.bold{
 .business .container-s .row{
   margin-bottom: 75px;
 }
+
+.business .container-s .laterale{
+  margin-right: 32%;
+}
 /* /Business */
+
+/* designit */
+.designit{
+  background-color: green;
+  height: 620px;
+  margin-top: 50px;
+}
+.container-big{
+  width: 100%;
+}
+
+.container-big .row .col{
+  width: calc(100% / 3);
+  height: 600px;
+}
+
+.container-big .row .col .quadrato,
+.container-big .row .col .quadrato-2{
+  background-color: #A2D39B;
+  
+  width: 50%;
+  height: 50%;
+
+}
+
+.quadrato#active{
+  box-shadow:inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+
+}
+
+.quadrato .prova{
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+/* parte sinistra */
+
+.row .col .quadrato:nth-child(2){
+  background-color: #61082B;
+  color: white;
+}
+.row .col .quadrato:nth-child(3){
+  background-color: #0093CE;
+  color: white;
+}
+.row .col .quadrato:nth-child(4){
+  background-color: #FF1C1C;
+  color: white;
+}
+/* /parte sinistra */
+
+/* parte destra */
+/* .row .col .quadrato-2:nth-child(1){
+  background-color: #D5001F;
+  color: white;
+} */
+.row .col .quadrato-2:nth-child(2){
+  background-color: #B4D0E7;
+  color: white;
+}
+.row .col .quadrato-2:nth-child(3){
+  background-color: #0D2481;
+  color: white;
+}
+.row .col .quadrato-2:nth-child(4){
+  background-color: #FFD830;
+  color: white;
+}
+/* /parte destra */
+
+.quadrato .prova .logo-partner{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quadrato-2 .prova-2 .logo-partner-2{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* /designit */
