@@ -1,0 +1,110 @@
+:root{
+  --azzurro: #B4D0E7;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+/* Utility */
+.d-flex{
+  display: flex;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+
+/* /Utility */
+header{
+  background-color: red;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+/* menu */
+.menu{
+  background-color: yellow;
+  height: 100%;
+}
+
+/* /menu */
+
+/* hero */
+  .hero{
+    background-color: var(--azzurro);
+    height: 750px;
+    margin-top: 80px;
+  }
+
+/* /hero */
+
+
+/* container */
+.container-l,
+.container-s{
+  width: 99%;
+  margin: 0 auto;
+}
+.container-l{
+  max-width: 1200px;
+}
+
+.container-s{
+  max-width: 1000px;
+  margin-top: 50px;
+}
+/* /container */
+
+/* piano */
+.piano{
+  margin-top: 100px;
+}
+
+/* radio */
+.radio-btn{
+  margin-right: 30px;
+}
+
+.card{
+  
+}
+/* /piano */
