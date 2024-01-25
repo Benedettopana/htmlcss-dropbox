@@ -31,6 +31,12 @@ h2{
   margin-bottom: 70px;
 }
 
+h4{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 35px 0 25px 0;
+}
+
 /* Utility */
 .d-flex{
   display: flex;
@@ -105,6 +111,124 @@ header{
 }
 
 .card{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 1100px;
+}
+
+.card-centrale{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+
+}
+
+.card-top{
+  text-align: center;
+  line-height: 2.2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.card-text{
+  margin: 0 20px;
+}
+
+.prezzo{
+  font-weight: bold;
+}
+
+.prezzo::before{
+  content: ' \20AC';
+}
+
+.mese{
+  color: #666666;
+  margin: 20px 0 50px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 20px;
   
 }
+ul.stile li{
+  font-family: FontAwesome;
+}
+
+ul.check li{
+  font-family: FontAwesome;
+  list-style-type: '\f00c';
+  color: #0061FF;
+  margin-top: 30px;
+}
+
+ul.stile li span,
+ul.check li span{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin-left: 3px;
+}
+
+nav ul li{
+  margin-bottom: 24px;
+}
+
+.in{
+  display: inline-block;
+}
+
+
+  li:nth-child(1){
+    /* font-family: FontAwesome; */
+    list-style-type: '\f007';
+    /* content: '\f007'; */
+  }
+
+li:nth-child(2){
+  list-style-type: '\f07b';
+}
+li:nth-child(3){
+  list-style-type: '\f1e0';
+}
+
+.btn-free{
+  background-color: #0061FF;
+  color: white;
+  text-align: center;
+  font-size: .9rem;
+  padding: 10px 0px;
+  margin: 50px 0 35px 0
+}
+
+.destra .btn-free{
+  margin: 30px;
+}
+
+.divisore{
+  width: 50px;
+  margin: 40px 0 50px 0;
+  border-bottom: 1px solid black;
+}
+
 /* /piano */
+
+/* card centrale */
+.card-bottom{
+  height: 250px;
+}
+
+.card-bottom .sinistra{
+  width: 69%;
+  margin-left: 30px;
+}
+.card-bottom .destra{
+  width: 29%;
+}
+
+span.bold{
+  font-weight: bold;
+}
+
+.sinistra p{
+  margin-top: 50px;
+}
+/* /card centrale */
