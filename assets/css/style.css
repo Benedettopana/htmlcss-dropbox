@@ -34,11 +34,19 @@ h2{
   margin-bottom: 70px;
 }
 
+.business h2{
+  margin-bottom: 40px;
+}
+
 h4{
   font-size: 1.5rem;
   font-weight: 700;
   margin: 35px 0 25px 0;
 }
+
+/* .partner .container-s .testo h4{
+  text-align: center;
+} */
 
 /* Utility */
 .d-flex{
@@ -55,6 +63,10 @@ h4{
 
 .align-items-center{
   align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
 }
 
 /* /Utility */
@@ -172,7 +184,7 @@ header .btn-free{
 
 /* piano */
 .piano{
-  margin-top: 100px;
+  margin: 100px 0 150px 0;
 }
 
 /* radio */
@@ -204,6 +216,10 @@ header .btn-free{
 
 .prezzo{
   font-weight: bold;
+}
+.no-prezzo{
+  font-weight: bold;
+  margin-bottom: 70px;
 }
 
 .prezzo::before{
@@ -252,6 +268,10 @@ ul.check li span{
 .stile li:nth-child(3){
   list-style-type: '\f1e0';
 }
+.stile li#gruppo{
+  list-style-type: '\f0c0';
+}
+
 
 .btn-free{
   background-color: #0061FF;
@@ -263,10 +283,26 @@ ul.check li span{
 }
 
 
+.btn-free#enter{
+  margin: 29px auto
+}
+
+
 .destra .btn-free{
   margin: 30px;
 }
 
+.partner .container-s .testo .btn-free{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin: 20px 200px 0 0;
+  padding: 10px 5px;
+
+  font-size: .9rem;
+  font-weight: 600;
+
+}
 .divisore{
   width: 50px;
   margin: 40px 0 50px 0;
@@ -296,3 +332,34 @@ span.bold{
   margin-top: 50px;
 }
 /* /card centrale */
+
+/* partner */
+  .partner{
+    margin-bottom: 150px;
+  }
+
+  .partner .container-s .img-box{
+    width: 60%;
+  }
+
+  .partner .container-s .testo{
+    width: 40%;
+    margin: 40px;
+  }
+
+  
+/* /partner */
+
+/* Business */
+.business .container-s{
+
+}
+.business .container-s .col{
+  width: calc(100% / 3);
+  padding: 0 10px;
+}
+
+.business .container-s .row{
+  margin-bottom: 75px;
+}
+/* /Business */
