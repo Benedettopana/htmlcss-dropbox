@@ -596,7 +596,6 @@ span.bold{
   display: none;
 }
 
-/* TODO:FARE BONUS */
 .top-faq:hover .testo-nascosto p,
 .top-faq:hover .icon-nascosta{
   display: block;
