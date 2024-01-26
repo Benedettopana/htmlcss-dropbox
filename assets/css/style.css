@@ -324,6 +324,12 @@ ul.check li span{
   border-bottom: 1px solid black;
 }
 
+.divisore-footer{
+  width: 120px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid white;
+}
+
 .centro .divisore{
   border-bottom: 1px solid #D0D0D3;
   width: 100px;
@@ -522,7 +528,47 @@ span.bold{
 
 /* TODO:FARE BONUS */
 .faq .container-s .container-s:hover{
-  
+
 }
 
 /* /FAQ */
+
+/* FOOTER */
+footer{
+  background-color: black;
+  height: 630px;
+}
+
+footer .debug{
+  border: 1px solid red;
+}
+
+footer .container-l{
+  margin-top: 100px;
+}
+
+footer .container-l .top-footer{
+  margin-top: 100px;
+  margin-bottom: 115px;
+}
+
+.container-l .top-footer nav ul{
+  list-style: none;
+}
+
+.container-l .top-footer nav ul li{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.container-l .top-footer nav ul li:first-child{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.container-l .bottom-footer{
+  color: white;
+}
+/* /FOOTER */
