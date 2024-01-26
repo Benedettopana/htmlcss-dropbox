@@ -165,6 +165,25 @@ header .btn-free{
   margin: 0 0 auto 0;
 }
 
+header .btn-free:hover,
+.hero-sinistra .btn-free:hover,
+.card-text .btn-free:hover,
+.card-bottom .destra .btn-free:hover{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+.partner .container-s .testo .btn-free:hover{
+  background-color: #0061FF;
+  color: white;
+}
+
+.designit .container-big .row .parte-destra .btn-free:hover{
+  background-color: black;
+  color: white;
+}
+
 
 /* liste nav  */
 .menu-sinistra .logo-img{
