@@ -80,6 +80,71 @@ header{
   left: 0;
 }
 
+/* RADIO BUTTON */
+
+/* container radio */
+.container {
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Nascondo btn default */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* btn custom */
+.checkmark {
+  position: absolute;
+  top: 0px;
+  left:12px;
+  height: 19px;
+  width: 19px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* hover ombra */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* su checked colore */
+.container input:checked ~ .checkmark {
+  background-color: #0061FF;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* stile cerchio interno bianco */
+.container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: white;
+}
+
+/* /RADIO BUTTON */
+
 /* menu */
 .menu{
   
