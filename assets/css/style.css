@@ -35,7 +35,6 @@ h2{
 }
 
 .business h2{
-  /* margin-bottom: 40px; */
   margin-top: 200px;
 }
 
@@ -44,10 +43,6 @@ h4{
   font-weight: 700;
   margin: 35px 0 25px 0;
 }
-
-/* .partner .container-s .testo h4{
-  text-align: center;
-} */
 
 /* Utility */
 .d-flex{
@@ -519,22 +514,38 @@ span.bold{
   margin-top: 160px;
 }
 
-.container-s .container-s .testo{
+.container-s .container-s .top-faq .testo{
   font-weight: 400;
   font-weight: bold;
 }
+.top-faq{
 
-.icon{
+}
+
+.icon,
+.icon-nascosta{
   margin: 0 40px 0 250px;
-  /* font-family: FontAwesome;
-  content: '\f107'; */
+}
+
+.icon-nascosta{
+  display: none;
 }
 
 /* TODO:FARE BONUS */
-.faq .container-s .container-s:hover{
-
+.top-faq:hover .testo-nascosto p,
+.top-faq:hover .icon-nascosta{
+  display: block;
 }
 
+.top-faq:hover .icon{
+  display: none;
+}
+
+
+.testo-nascosto p{
+  margin: 20px 40px 0 5px;
+  display: none;
+}
 /* /FAQ */
 
 /* FOOTER */
