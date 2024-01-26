@@ -287,6 +287,14 @@ ul.check li span{
   margin: 50px 0 35px 0
 }
 
+.btn-riga{
+  background-color: #FFFFFF;
+  color: black;
+  margin: 0 auto;
+  margin: 135px 0 150px 120px;
+  padding: 10px 6px;
+}
+
 
 .btn-free#enter{
   margin: 29px auto
@@ -319,6 +327,11 @@ ul.check li span{
 .centro .divisore{
   border-bottom: 1px solid #D0D0D3;
   width: 100px;
+}
+
+.faq .container-s .divisore{
+  width: 100%;
+  border-bottom: 1px solid #D0D0D3;
 }
 /* /DIVISORI */
 
@@ -436,7 +449,8 @@ span.bold{
 
 
 .quadrato .logo-partner,
-.quadrato-d .logo-partner{
+.quadrato-d .logo-partner,
+.quadrato-d .logo-partner-2{
   position: absolute;
   /* COLORE SVG */
   filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
@@ -445,12 +459,9 @@ span.bold{
   transform: translate(-50%, -50%);
 }
 
-.quadrato-d .prova .logo-partner-2{
+.quadrato-d .logo-partner-2{
   position: relative;
-  /* COLORE SVG */
-  filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
-  top: 35%;
-  left: 25%;
+  width: 50%;
 }
 
 .col-centrale{
@@ -461,7 +472,6 @@ span.bold{
 
 .centro{
   margin: 50px;
-
 }
 
 .centro img{
@@ -473,5 +483,46 @@ span.bold{
   margin-top: 60px;
 }
 
+/* RIGA GRANDE */
+.row.larga{
+  background-color: #B4D0E7;
+}
+
+.row.larga .container-s{
+  margin-top: 0;
+}
+
+
+.row .container-s .parte-destra{
+  width: 60%;
+}
+
+.titolo-riga{
+  color: #61082B;
+  margin: 135px 0;
+}
 
 /* /designit */
+
+/* FAQ */
+.faq{
+  margin-top: 160px;
+}
+
+.container-s .container-s .testo{
+  font-weight: 400;
+  font-weight: bold;
+}
+
+.icon{
+  margin: 0 40px 0 250px;
+  /* font-family: FontAwesome;
+  content: '\f107'; */
+}
+
+/* TODO:FARE BONUS */
+.faq .container-s .container-s:hover{
+  
+}
+
+/* /FAQ */
