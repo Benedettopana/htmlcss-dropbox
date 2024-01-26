@@ -35,7 +35,8 @@ h2{
 }
 
 .business h2{
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  margin-top: 200px;
 }
 
 h4{
@@ -264,7 +265,7 @@ ul.check li span{
 
 
 .stile li:nth-child(1){
-    list-style-type: '\f007';
+  list-style-type: '\f007';
   }
 .stile li:nth-child(2){
   list-style-type: '\f07b';
@@ -307,11 +308,19 @@ ul.check li span{
   font-weight: 600;
 
 }
+
+/* DIVISORI */
 .divisore{
   width: 50px;
   margin: 40px 0 50px 0;
   border-bottom: 1px solid black;
 }
+
+.centro .divisore{
+  border-bottom: 1px solid #D0D0D3;
+  width: 100px;
+}
+/* /DIVISORI */
 
 /* /piano */
 
@@ -355,8 +364,8 @@ span.bold{
 /* /partner */
 
 /* Business */
-.business .container-s{
-
+.business{
+  margin-bottom: 150px;
 }
 .business .container-s .col{
   width: calc(100% / 3);
@@ -374,9 +383,7 @@ span.bold{
 
 /* designit */
 .designit{
-  background-color: green;
-  height: 620px;
-  margin-top: 50px;
+  
 }
 .container-big{
   width: 100%;
@@ -384,16 +391,14 @@ span.bold{
 
 .container-big .row .col{
   width: calc(100% / 3);
-  height: 600px;
 }
 
 .container-big .row .col .quadrato,
 .container-big .row .col .quadrato-d{
+  position: relative;
   background-color: #A2D39B;
-  min-width: 300px;
-  min-height: 300px;
-  width: 50%;
-  height: 50%;
+  width: calc(100% / 2);
+  aspect-ratio: 1/1;
 
 }
 
@@ -402,14 +407,6 @@ span.bold{
 
 }
 
-.quadrato .prova,
-.quadrato-d .prova{
-  width: 100%;
-  height: 100%;
-
-  position: relative;
-}
-/* parte sinistra */
 
 .row .col .quadrato:nth-child(2){
   background-color: #61082B;
@@ -437,8 +434,9 @@ span.bold{
 }
 /* /parte destra */
 
-.quadrato .prova .logo-partner,
-.quadrato-d .prova .logo-partner{
+
+.quadrato .logo-partner,
+.quadrato-d .logo-partner{
   position: absolute;
   /* COLORE SVG */
   filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
@@ -453,24 +451,27 @@ span.bold{
   filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(104deg) brightness(119%) contrast(98%);
   top: 35%;
   left: 25%;
-  /* transform: translate(-50%, -50%); */
 }
 
-.logo-partner-2 img{
-  width: 50%;
+.col-centrale{
+  background-color: #F5F5F5;
+  overflow: auto;
+  max-height: 630px;
 }
 
+.centro{
+  margin: 50px;
 
-/* .quadrato-2 .prova-2 .logo-partner-2{
-  position: absolute;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+}
 
+.centro img{
+  height: 83px;
+  width: 260px;
+}
 
-
+.centro .firma{
+  margin-top: 60px;
+}
 
 
 /* /designit */
