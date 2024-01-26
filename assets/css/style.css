@@ -102,24 +102,28 @@ header{
 
 header .btn-free{
   padding: 8px 15px;
-  margin: 0;
+  margin: 0 0 auto 0;
 }
 
 
 /* liste nav  */
-
+.menu-sinistra .logo-img{
+  height: 80px;
+}
 
 .menu-destra nav ul,
 .menu-sinistra nav ul{
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   list-style: none;
 }
 .menu-destra nav ul li{
   margin: 0 30px;
+  height: 60px;
 }
 .menu-sinistra nav ul li{
   margin: 0 25px;
+  height: 60px;
 }
 
 
@@ -129,9 +133,9 @@ header .btn-free{
   color: black;
 }
 
-.menu-destra nav ul li a:hover,
-.menu-sinistra nav ul li a:hover{
-  margin-bottom: 1px solid  black;
+.menu-destra nav ul li:hover,
+.menu-sinistra nav ul li:hover{
+  border-bottom: 2px solid lightgray;
 }
 /* /menu */
 
