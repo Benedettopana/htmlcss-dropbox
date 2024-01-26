@@ -158,7 +158,7 @@ header .btn-free{
 
 .hero-sinistra .btn-free{
   padding: 10px 3px;
-  margin: 40px 230px 30px 0;
+  margin: 40px 130px 30px 0;
 }
 
 .hero-sinistra .freccia{
@@ -407,6 +407,12 @@ span.bold{
 
   position: relative;
 }
+.quadrato .prova-2{
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
 /* parte sinistra */
 
 .row .col .quadrato:nth-child(2){
@@ -424,19 +430,19 @@ span.bold{
 /* /parte sinistra */
 
 /* parte destra */
-.row .col .quadrato-2:nth-child(1){
+.row .col .quadrato:nth-child(5){
   background-color: #D5001F;
   color: white;
 }
-.row .col .quadrato-2:nth-child(2){
+.row .col .quadrato:nth-child(6){
   background-color: #B4D0E7;
   color: white;
 }
-.row .col .quadrato-2:nth-child(3){
+.row .col .quadrato:nth-child(7){
   background-color: #0D2481;
   color: white;
 }
-.row .col .quadrato-2:nth-child(4){
+.row .col .quadrato:nth-child(8){
   background-color: #FFD830;
   color: white;
 }
