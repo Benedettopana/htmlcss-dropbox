@@ -135,7 +135,7 @@ header{
 
 /* stile cerchio interno bianco */
 .container .checkmark:after {
- 	top: 4px;
+  top: 4px;
 	left: 4px;
 	width: 11px;
 	height: 11px;
@@ -493,6 +493,7 @@ span.bold{
 
 .container-big .row .col{
   width: calc(100% / 3);
+  aspect-ratio: 1/1;
 }
 
 .container-big .row .col .quadrato,
@@ -501,12 +502,10 @@ span.bold{
   background-color: #A2D39B;
   width: calc(100% / 2);
   aspect-ratio: 1/1;
-
 }
 
 .quadrato#active{
   box-shadow:inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
-
 }
 
 
